@@ -1,0 +1,84 @@
+
+.wrapper {
+	width: 360px;
+	height: 360px;
+	background: linear-gradient(135deg, #d7d8d8 0%,#efefef 46%,#d7d8d8 100%);
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+.container {
+	width: 320px;
+	height: 320px;
+	background: #2E5A75;;
+	position: relative;
+}
+.dice {
+	width: 80px;
+	height: 80px;
+	background-image: url(../img/154.png);
+	display: inline-block;
+	position: absolute;
+	border-radius: 10px;
+	cursor: grab;
+}
+body {
+	padding-top: 50px;
+	height: 500px;
+	background: #2E5A75;
+	text-align: center;
+}
+button {
+	margin-top: 20px;
+	padding: 10px;
+}
+button:hover {
+	cursor: pointer;
+}
+.d1 {
+	background-position: -5px -7px;
+}
+.d2 {
+	background-position: -85px -7px;
+}
+.d3 {
+	background-position: -170px -7px;
+}
+.d4 {
+	background-position: -255px -7px;
+}
+.d5 {
+	background-position: -5px -90px;
+}
+.d6 {
+	background-position: -85px -90px;
+}
+.d7 {
+	background-position: -170px -90px;
+}
+.d8 {
+	background-position: -255px -90px;
+}
+.d9 {
+	background-position: -5px -175px;
+}
+.d10 {
+	background-position: -85px -175px;
+}
+.d11 {
+	background-position: -170px -172px;
+}
+.d12 {
+	background-position: -255px -172px;
+}
+.d13 {
+	background-position: -5px -258px;
+}
+.d14 {
+	background-position: -85px -258px;
+}
+.d15 {
+	background-position: -170px -258px;
+}
